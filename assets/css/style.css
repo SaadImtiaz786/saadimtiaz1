@@ -54,7 +54,7 @@
         background-color: #11ba51;
 	}
     .top-bar p{
-        font-weight: 600;		
+        font-weight: 600;
 	}
     .padding-0{
         padding: 0 !important;
@@ -75,12 +75,12 @@
 		display: block;
 		position: relative;
 		top: -125px!important;
-		visibility: hidden;;	
+		visibility: hidden;;
 	}
     button:focus{
         outline: none !important;
     }
-/* 2. NAVBAR */ 
+/* 2. NAVBAR */
     .header-scrolled{
         position: fixed;
 		margin-top: 0!important;
@@ -123,9 +123,9 @@
         align-items: center;
     }
     .navbar-brand img {
-		margin-left: 15px;
+		    margin-left: 15px;
         width: 200px;
-		height: auto;
+		    height: auto;
     }
     .navbar-brand-menu{
         margin-right: 15px;
@@ -147,10 +147,10 @@
         text-align: right;
     }
     .nav-item .nav-link:hover .nav-link-number{
-        color: #303669 !important; 
+        color: #303669 !important;
     }
     .nav-item .nav-link:hover .nav-link-menu{
-        color: #303669 !important; 
+        color: #303669 !important;
     }
     .nav-link-number{
         font-family: Poppins;
@@ -229,37 +229,6 @@
     }
     .header-img-section{
         position: relative;
-    }
-    .header-img-section-bg-graphic-one{
-		animation: blinker 2s linear infinite;
-        position: absolute;
-        left: 0;
-        top: 10%;
-    }
-    .header-img-section-bg-graphic-two{
-		animation: blinker 3s linear infinite;
-        position: absolute;
-        top: 0;
-        left: 40%;
-    }
-
-    .header-img-section-bg-graphic-three{
-		animation: blinker 3s linear infinite;
-        position: absolute;
-        top: 0%;
-        right: 5%;
-    }
-    .header-img-section-bg-graphic-four{
-		animation: blinker 2s linear infinite;
-        position: absolute;
-        right: 0;
-        bottom: 30%;
-    }
-    .header-img-section-bg-graphic-five{
-		animation: blinker 2s linear infinite;
-        position: absolute;
-        right: 10%;
-        bottom: 0;
     }
 	@keyframes blinker{
   		50% {
@@ -366,7 +335,7 @@
     .edu-title-icon{
         width: auto;
         margin-right: 20px;
-    }	
+    }
     .edu-title{
         font-family: Montserrat;
         font-weight: 800;
@@ -386,7 +355,7 @@
 		text-transform: uppercase;
         line-height: 1.5;
 		margin-bottom: 5px;
-    }	
+    }
 	.edu-title.education:before{
 		content: "Education";
         font-family: Montserrat;
@@ -410,7 +379,7 @@
 		text-transform: uppercase;
         line-height: 1.5;
 		margin-bottom: 5px;
-    }	
+    }
 	.edu-title.awards:before{
 		content: "Honours";
         font-family: Montserrat;
@@ -422,8 +391,8 @@
 		text-transform: uppercase;
         line-height: 1.5;
 		margin-bottom: 5px;
-    }	
-/* 5. EDUCATION AND EXPERIENCE SECTION */    
+    }
+/* 5. EDUCATION AND EXPERIENCE SECTION */
     .edu-ex-section{
         display: flex;
         padding-top: 40px;
@@ -557,7 +526,7 @@
             padding-bottom: 20px;
         }
     }
-/* 6. REVIEWS SECTION */    
+/* 6. REVIEWS SECTION */
     .reviews-section{
         display: flex;
         padding-top: 40px;
@@ -581,7 +550,7 @@
         flex-direction: column;
         margin-bottom: 20px;
         text-align: center;
-    }   
+    }
     .reviews-title{
         font-family: Montserrat;
         font-weight: 800;
@@ -743,7 +712,7 @@
             margin-bottom: -50px;
         }
 		.reviews-card-title{
-            margin-left: -20px;			
+            margin-left: -20px;
 		}
         .reviews-card-details{
             position: relative;
@@ -752,7 +721,7 @@
             padding-left: 40px;
         }
     }
-/* 7. SKILLS AND AWARDS SECTION */    
+/* 7. SKILLS AND AWARDS SECTION */
     .ex-aw-section{
         display: flex;
         padding-top: 40px;
@@ -802,7 +771,7 @@
     .ex-aw-section-degree-details-card{
         width: 100%;
     }
-    .ex-aw-section-degree-details-title{        
+    .ex-aw-section-degree-details-title{
     	color: #303669;
     	font-family: Montserrat;
     	font-weight: 700;
@@ -889,7 +858,7 @@
         flex-direction: column;
         margin-bottom: 20px;
         text-align: center;
-    }      
+    }
 	.clients-subtitle{
         font-family: Montserrat;
 		color: #757575;
@@ -917,7 +886,7 @@
     .client-logo-section img{
         height: 80px;
         width: auto !important;
-    }    
+    }
     .owl-theme .owl-nav{
         display: none;
     }
@@ -943,7 +912,7 @@
         margin: 0 auto 20px auto!important;
 	}
     .contact-section .btn-invert{
-        margin-bottom: 15px;	
+        margin-bottom: 15px;
 	}
     .contact-section card-body p{
         font-weight: 300;
@@ -955,7 +924,7 @@
         flex-direction: column;
         margin-bottom: 20px;
         text-align: center;
-    }	
+    }
 	.contact-subtitle{
         font-family: Montserrat;
         color: #757575;
@@ -1078,7 +1047,7 @@
         justify-content: left;
         margin: 20px 0 5px 0!important;
         letter-spacing: 20px;
-    }	
+    }
     .contact-social-media-icons-section .fa{
         color: #FFFFFF;
         font-size: 22px;
@@ -1131,7 +1100,7 @@
         max-width: 270px;
         margin: 0 auto 25px auto;
 	}
-    @media screen and (max-width: 991.98px){ 
+    @media screen and (max-width: 991.98px){
         .footer-container{
             flex-wrap: wrap;
         }

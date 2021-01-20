@@ -1,0 +1,63 @@
+	<!-- FOOTER SCRIPTS -->
+<!--	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!--<script src="assets/js/owl/owl.carousel.js"></script>
+  		<!-- Header scroll -->
+		<script type="text/javascript">
+				$(window).scroll(function() {
+				    if ($(this).scrollTop() > 20) {
+				      $('#navbar').addClass('header-scrolled');
+				    } else {
+				      $('#navbar').removeClass('header-scrolled');
+				    }
+				  });
+		</script>
+		<!-- Reviews Carousel -->
+		<script>
+			$(document).ready(function(){
+			  $(".reviews-slider").owlCarousel({
+			  	loop:true,
+			  	nav:true,
+			  	autoplay:true,
+			    autoplayTimeout:2000,
+			    autoplayHoverPause:true,
+			    responsiveClass:true,
+			    responsive:{
+			        0:{
+			            items:1
+			        },
+			        600:{
+			            items:1
+			        },
+			        992:{
+			            items:2
+			        }
+			    }
+			  });
+			});
+	    </script>
+		<!-- Clients Carousel -->
+		<script>
+			$(document).ready(function(){
+			  $(".clients-carousel").owlCarousel({
+			  	loop:true,
+			  	nav:true,
+			  	autoplay:true,
+			    autoplayTimeout:2000,
+			    autoplayHoverPause:true,
+			    responsiveClass:true,
+			    responsive:{
+			        0:{
+			            items:1
+			        },
+			        600:{
+			            items:2
+			        },
+			        1000:{
+			            items:5
+			        }
+			    }
+			  });
+			});
+	    </script>
