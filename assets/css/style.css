@@ -1049,8 +1049,8 @@
         letter-spacing: 20px;
     }
     .contact-social-media-icons-section .fa{
-        color: #FFFFFF;
-        font-size: 22px;
+ /*     color: #FFFFFF;*/
+        font-size: 42px;
 	}
     @media screen and (max-width: 991.98px){
         .contact-form-card{
